@@ -219,6 +219,17 @@ body {
     border-radius: 25px;
     width: 80%;
     text-align: center;
+    animation: animateSkills 2s ;
+}
+
+@keyframes animateSkills {
+    from {
+        width: 0%;
+    } 
+    
+    to {
+        width: 80%;
+    }
 }
 
 @media (max-width: 680px) {
